@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Notable&family=Montserrat&display=swap');
+
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%
+}
+
+html {
+    font-size:62.5%
+}
+
+body {
+    line-height: 2;
+    font-family: 'Lato', sans-serif;
+    background-color: indianred;
+    color: floralwhite;
+}
+
+h1 {
+    font-family: 'Notable', sans-serif;
+    font-size:10rem;
+    color: ivory;
+}
+
+h2 {
+    font-size:5rem;
+    color:ivory;
+    font-family:'Montserrat';
+}
+
+h3 {
+    font-family: 'Notable', sans-serif;
+    font-size:5rem;
+    color: ivory;
+    text-align:center;
+}
+
+header {
+    background-color: firebrick;
+
+}
+
+footer {
+    background-color: firebrick;
+}
+
+
+/*nav bar links*/
+#container-one nav a {
+    margin: 5% 0;
+    border: .3rem solid darkred;
+    padding: 2rem 6rem;
+    display: inline-block;
+    color: ivory;
+    text-decoration: none;
+    background: brown;
+    font-size:2rem;
+    font-family:'Montserrat';
+    font-weight:600;
+    margin-top: 0;
+    margin-bottom: 2.5%
+  }
+  
+  #container-one nav a:hover {
+    background:floralwhite;
+    color: darkred;
+  }
+
+  /*main part*/
+
+  #container-two {
+      display:flex;
+      font-size:2rem;
+    margin:5%;
+    justify-content:center;
+    align-items:center;
+  }
+
+  #one {
+    width: 50%;
+    margin:auto;
+    height:75vh;
+  }
+
+  #two {
+      width: 45%;
+      text-align:center;
+      margin:5%;
+      display:flex;
+      justify-content:flex-start;
+      flex-direction:column;
+  }
+
+  #two a {
+      text-decoration: none;
+      margin: 5%;
+      border: .3rem solid darkred;
+    padding: 2rem 6em;
+    color:ivory;
+    background:brown;
+    font-size: 1.5rem;
+    font-weight:600;
+    margin-bottom:10%;
+  }
+
+  #two a:hover {
+      background:floralwhite;
+      color:darkred;
+  }
+
+/*section three, projects */
+
+#container-three {
+    display:flex;
+    justify-content:space-evenly;
+    font-size:2.5rem;
+    text-align:center;
+    flex-direction:column;
+    margin:5%;
+    align-items:center;
+}
+
+#container-three img {
+    width:20%;
+    height:20vh;
+}
+
+#container-three p {
+    width:20%;
+}
+
+#top, #bottom {
+    margin:2.5%;
+}
+
+
+.projectbottomtext, .projecttoptext {
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    align-items:center;
+}
+.projecttopphoto, .projectbottomphoto {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+/*bottom of page*/
+
+#likelink {
+    display:flex;
+    justify-content:center;
+}
+
+footer a {
+    margin: 2% 0;
+    border: .3rem solid darkred;
+    padding: 2rem 6em;
+    color:ivory;
+    text-decoration:none;
+    background: brown;
+    font-size:2rem;
+    font-family:'Montserrat';
+    font-weight:600;
+    display:inline-block;
+}
+
+footer a:hover {
+    background:floralwhite;
+    color:darkred;
+}
