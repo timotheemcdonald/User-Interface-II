@@ -112,6 +112,15 @@ footer {
 
 /*section three, projects */
 
+#container-three a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+#container-three a:hover {
+    color: maroon;
+}
+
 #container-three {
     display:flex;
     justify-content:space-evenly;
@@ -127,7 +136,7 @@ footer {
     height:20vh;
 }
 
-#container-three p {
+#container-three p, #container-three a {
     width:20%;
 }
 
