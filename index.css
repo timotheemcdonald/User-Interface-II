@@ -79,9 +79,7 @@ footer {
   }
 
   #one {
-    width: 50%;
-    margin:auto;
-    height:75vh;
+  width: 45%;
   }
 
   #two {
@@ -89,73 +87,55 @@ footer {
       text-align:center;
       margin:5%;
       display:flex;
-      justify-content:flex-start;
+      align-items:center;
       flex-direction:column;
   }
 
-  #two a {
+  .button {
       text-decoration: none;
       margin: 5%;
       border: .3rem solid darkred;
-    padding: 2rem 6em;
+    padding: 1.5rem 4em;
     color:ivory;
     background:brown;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight:600;
     margin-bottom:10%;
+    width:45%;
   }
 
-  #two a:hover {
+.button:hover {
       background:floralwhite;
       color:darkred;
   }
 
 /*section three, projects */
 
-#container-three a {
+.portfolio a {
     text-decoration: none;
     color: floralwhite;
 }
 
-#container-three a:hover {
+.portfolio a:hover {
     color: maroon;
 }
 
-#container-three {
+.portfolio {
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center space-between;
+    flex-wrap:wrap;
+    align-items:center;
     font-size:2.5rem;
     text-align:center;
-    flex-direction:column;
     margin:5%;
-    align-items:center;
+    
 }
 
-#container-three img {
-    width:20%;
-    height:20vh;
-}
-
-#container-three p, #container-three a {
-    width:20%;
-}
-
-#top, #bottom {
+.portfolio div {
     margin:2.5%;
+    width: 20%;
 }
 
-
-.projectbottomtext, .projecttoptext {
-    display:flex;
-    flex-wrap:nowrap;
-    justify-content:space-between;
-    align-items:center;
-}
-.projecttopphoto, .projectbottomphoto {
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
 
 /*bottom of page*/
 
