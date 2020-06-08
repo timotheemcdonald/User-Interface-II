@@ -161,3 +161,109 @@ footer a:hover {
     background:floralwhite;
     color:darkred;
 }
+
+/* Day 2 Assignment */
+
+@media(max-width:800px) {
+
+    .portfolio {
+        align-items:baseline;
+    }
+
+    h1 {
+        font-size:7rem;
+    }
+
+    #container-one nav a {
+        margin-bottom: 1%;
+        box-sizing:border-box;
+        padding:1rem 3rem;
+    }
+
+    h2 {
+        font-size:3.5rem;
+    }
+
+    .button {
+        width: 50%;
+        padding: 4%;
+        font-size:2rem;
+        text-align:center;
+    }
+
+    h3 {
+        font-size:3rem;
+    }
+
+    footer a {
+        width: 20%;
+        padding: 2%;
+        font-size:1.5rem;
+        text-align:center;
+    }
+}
+
+@media(max-width:500px) {
+
+    header {
+        display:flex;
+        justify-content:center;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+        text-align:center;
+    }
+
+
+    #container-one nav {
+        display:flex;
+       flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        padding-bottom:1rem;
+       
+    }
+    
+
+    #container-one nav a {
+        font-size:2rem;
+        margin-bottom:.5%;
+        width:35%;
+        text-align:center;
+    }
+
+    #container-two {
+        width: 90%;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    #one {
+        width:90%;
+    }
+
+    #two {
+        width:90%;
+    }
+
+    h2 {
+        font-size:2.5rem;
+    }
+
+    .portfolio div {
+        width: 45%;
+
+    }
+
+    h3 {
+        font-size:2.5rem;
+    }
+
+    footer a {
+        width: 35%;
+    }
+
+}
