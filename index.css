@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Notable&family=Montserrat&display=swap');
+
+* {
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%
+}
+
+html {
+    font-size:62.5%
+}
+
+body {
+    line-height: 2;
+    font-family: 'Lato', sans-serif;
+    background-color: indianred;
+    color: floralwhite;
+}
+
+h1 {
+    font-family: 'Notable', sans-serif;
+    font-size:10rem;
+    color: ivory;
+}
+
+h2 {
+    font-size:5rem;
+    color:ivory;
+    font-family:'Montserrat';
+}
+
+h3 {
+    font-family: 'Notable', sans-serif;
+    font-size:5rem;
+    color: ivory;
+    text-align:center;
+}
+
+header {
+    background-color: firebrick;
+
+}
+
+footer {
+    background-color: firebrick;
+}
+
+
+/*nav bar links*/
+#container-one nav a {
+    margin: 5% 0;
+    border: .3rem solid darkred;
+    padding: 2rem 6rem;
+    display: inline-block;
+    color: ivory;
+    text-decoration: none;
+    background: brown;
+    font-size:2rem;
+    font-family:'Montserrat';
+    font-weight:600;
+    margin-top: 0;
+    margin-bottom: 2.5%
+  }
+  
+  #container-one nav a:hover {
+    background:floralwhite;
+    color: darkred;
+  }
+
+  /*main part*/
+
+  #container-two {
+      display:flex;
+      font-size:2rem;
+    margin:5%;
+    justify-content:center;
+    align-items:center;
+  }
+
+  #one {
+  width: 45%;
+  }
+
+  #two {
+      width: 45%;
+      text-align:center;
+      margin:5%;
+      display:flex;
+      align-items:center;
+      flex-direction:column;
+  }
+
+  .button {
+      text-decoration: none;
+      margin: 5%;
+      border: .3rem solid darkred;
+    padding: 1.5rem 4em;
+    color:ivory;
+    background:brown;
+    font-size: 2rem;
+    font-weight:600;
+    margin-bottom:10%;
+    width:45%;
+  }
+
+.button:hover {
+      background:floralwhite;
+      color:darkred;
+  }
+
+/*section three, projects */
+
+.portfolio a {
+    text-decoration: none;
+    color: floralwhite;
+}
+
+.portfolio a:hover {
+    color: maroon;
+}
+
+.portfolio {
+    display:flex;
+    justify-content:center space-between;
+    flex-wrap:wrap;
+    align-items:center;
+    font-size:2.5rem;
+    text-align:center;
+    margin:5%;
+    
+}
+
+.portfolio div {
+    margin:2.5%;
+    width: 20%;
+}
+
+
+/*bottom of page*/
+
+#likelink {
+    display:flex;
+    justify-content:center;
+}
+
+footer a {
+    margin: 2% 0;
+    border: .3rem solid darkred;
+    padding: 2rem 6em;
+    color:ivory;
+    text-decoration:none;
+    background: brown;
+    font-size:2rem;
+    font-family:'Montserrat';
+    font-weight:600;
+    display:inline-block;
+}
+
+footer a:hover {
+    background:floralwhite;
+    color:darkred;
+}
+
+/* Day 2 Assignment */
+
+@media(max-width:800px) {
+
+    .portfolio {
+        align-items:baseline;
+    }
+
+    h1 {
+        font-size:7rem;
+    }
+
+    #container-one nav a {
+        margin-bottom: 1%;
+        box-sizing:border-box;
+        padding:1rem 3rem;
+    }
+
+    h2 {
+        font-size:3.5rem;
+    }
+
+    .button {
+        width: 50%;
+        padding: 4%;
+        font-size:2rem;
+        text-align:center;
+    }
+
+    h3 {
+        font-size:3rem;
+    }
+
+    footer a {
+        width: 20%;
+        padding: 2%;
+        font-size:1.5rem;
+        text-align:center;
+    }
+}
+
+@media(max-width:500px) {
+
+    header {
+        display:flex;
+        justify-content:center;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+        text-align:center;
+    }
+
+
+    #container-one nav {
+        display:flex;
+       flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        padding-bottom:1rem;
+       
+    }
+    
+
+    #container-one nav a {
+        font-size:2rem;
+        margin-bottom:.5%;
+        width:35%;
+        text-align:center;
+    }
+
+    #container-two {
+        width: 90%;
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    #one {
+        width:90%;
+    }
+
+    #two {
+        width:90%;
+    }
+
+    h2 {
+        font-size:2.5rem;
+    }
+
+    .portfolio div {
+        width: 45%;
+
+    }
+
+    h3 {
+        font-size:2.5rem;
+    }
+
+    footer a {
+        width: 35%;
+    }
+
+}
